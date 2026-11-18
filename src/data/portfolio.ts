@@ -56,7 +56,7 @@ export const PROFILE_DATA = {
     id: "Bogor Tengah, Kota Bogor, Jawa Barat 16128",
   },
   cvUrl: "/cv/CV-Nabil-Zulfan-Nurtsani.pdf",
-  portraitUrl: "/images/profile-almet-ipb-real.jpg",
+  portraitUrl: "/images/profile-almet-ipb-v3.jpg",
   socials: {
     github: "https://github.com/nabjul",
     linkedin: "https://linkedin.com/in/nabil-zulfan-placeholder",
