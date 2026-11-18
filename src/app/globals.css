@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #080b0a;
+  --foreground: #f4f7f5;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #080b0a;
+  color: #f4f7f5;
+}
+
+body {
+  background-color: #080b0a;
+  color: #f4f7f5;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom subtle emerald scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080b0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #143628;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #18b779;
+}
